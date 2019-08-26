@@ -24,8 +24,8 @@ type Person struct {
 }
 
 var persons = []Person{
-	Person{Name: "Marvel Captan"},
-	Person{Name: "Thor Hagnarok"},
+	Person{Name: "Capitã Marvel"},
+	Person{Name: "Thor Ragnarok"},
 }
 
 func getAll(w http.ResponseWriter, r *http.Request){
